@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Iron Gate Films",
+          "path": "/homepage",
+          "heroTitle": "Stories Worth Telling",
+          "heroSubtitle": "Feature Films. Documentaries. Commercials.",
+          "heroDescription": {
+            "processed": "<p>Iron Gate Films is an independent production company dedicated to crafting visually stunning narratives that challenge, inspire, and endure. From intimate documentaries to sweeping feature films, we bring bold visions to life.</p>",
+            "summary": "Iron Gate Films is an independent production company dedicated to crafting visually stunning narratives that challenge, inspire, and endure. From intimate documentaries to sweeping feature films, we b"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-productions",
+              "title": "",
+              "number": "120+",
+              "label": "Productions Completed"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-festivals",
+              "title": "",
+              "number": "45",
+              "label": "Festival Selections"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-awards",
+              "title": "",
+              "number": "18",
+              "label": "Awards Won"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-countries",
+              "title": "",
+              "number": "30+",
+              "label": "Countries Filmed In"
+            }
+          ],
+          "featuredItemsTitle": "Featured Projects",
+          "ctaTitle": "Have a Story to Tell?",
+          "ctaDescription": {
+            "processed": "<p>We're always looking for compelling stories and creative collaborations. Whether you have a script, a concept, or a brand campaign, let's talk about bringing your vision to screen.</p>",
+            "summary": "We're always looking for compelling stories and creative collaborations. Whether you have a script, a concept, or a brand campaign, let's talk about bringing your vision to screen."
+          },
+          "ctaPrimary": "Submit a Project",
+          "ctaSecondary": "View Our Reel"
+        }
+      ]
+    }
+  }
+}

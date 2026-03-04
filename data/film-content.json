@@ -1,0 +1,347 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Film production company homepage with hero, stats, featured projects, and CTA",
+      "fields": [
+        { "id": "hero_title", "label": "Hero Title", "type": "string" },
+        { "id": "hero_subtitle", "label": "Hero Subtitle", "type": "string" },
+        { "id": "hero_description", "label": "Hero Description", "type": "text" },
+        { "id": "stats_items", "label": "Statistics", "type": "paragraph(stat_item)[]" },
+        { "id": "featured_items_title", "label": "Featured Items Title", "type": "string" },
+        { "id": "cta_title", "label": "CTA Title", "type": "string" },
+        { "id": "cta_description", "label": "CTA Description", "type": "text" },
+        { "id": "cta_primary", "label": "Primary CTA", "type": "string" },
+        { "id": "cta_secondary", "label": "Secondary CTA", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "project",
+      "label": "Project",
+      "description": "Film and video production projects",
+      "body": true,
+      "fields": [
+        { "id": "project_type", "label": "Project Type", "type": "term(project_types)[]" },
+        { "id": "director", "label": "Director", "type": "string" },
+        { "id": "release_year", "label": "Release Year", "type": "string" },
+        { "id": "runtime", "label": "Runtime", "type": "string" },
+        { "id": "image", "label": "Featured Image", "type": "image" },
+        { "id": "trailer_url", "label": "Trailer URL", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "team_member",
+      "label": "Team Member",
+      "description": "Production company team members and creatives",
+      "body": true,
+      "fields": [
+        { "id": "position", "label": "Position", "type": "string" },
+        { "id": "notable_credits", "label": "Notable Credits", "type": "string[]" },
+        { "id": "photo", "label": "Photo", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "service",
+      "label": "Service",
+      "description": "Production services offered by the company",
+      "body": true,
+      "fields": [
+        { "id": "service_area", "label": "Service Area", "type": "term(service_areas)[]" },
+        { "id": "icon_name", "label": "Icon Name", "type": "string" },
+        { "id": "image", "label": "Service Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "news",
+      "label": "News",
+      "description": "Company news, press releases, and announcements",
+      "body": true,
+      "fields": [
+        { "id": "news_category", "label": "Category", "type": "term(news_categories)[]" },
+        { "id": "publish_date", "label": "Publish Date", "type": "datetime" },
+        { "id": "image", "label": "Featured Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "A key statistic with number and label",
+      "fields": [
+        { "id": "number", "label": "Number", "type": "string!" },
+        { "id": "label", "label": "Label", "type": "string!" }
+      ]
+    }
+  ],
+  "taxonomies": [
+    {
+      "vocabulary": "project_types",
+      "label": "Project Types",
+      "terms": ["feature-film", "documentary", "commercial", "music-video", "short-film", "series"]
+    },
+    {
+      "vocabulary": "service_areas",
+      "label": "Service Areas",
+      "terms": ["production", "post-production", "visual-effects", "sound-design", "color-grading"]
+    },
+    {
+      "vocabulary": "news_categories",
+      "label": "News Categories",
+      "terms": ["press-release", "festival", "award", "announcement", "behind-the-scenes"]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-productions",
+      "type": "paragraph.stat_item",
+      "values": { "number": "120+", "label": "Productions Completed" }
+    },
+    {
+      "id": "stat-festivals",
+      "type": "paragraph.stat_item",
+      "values": { "number": "45", "label": "Festival Selections" }
+    },
+    {
+      "id": "stat-awards",
+      "type": "paragraph.stat_item",
+      "values": { "number": "18", "label": "Awards Won" }
+    },
+    {
+      "id": "stat-countries",
+      "type": "paragraph.stat_item",
+      "values": { "number": "30+", "label": "Countries Filmed In" }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Welcome to Iron Gate Films",
+        "hero_title": "Stories Worth Telling",
+        "hero_subtitle": "Feature Films. Documentaries. Commercials.",
+        "hero_description": "<p>Iron Gate Films is an independent production company dedicated to crafting visually stunning narratives that challenge, inspire, and endure. From intimate documentaries to sweeping feature films, we bring bold visions to life.</p>",
+        "stats_items": ["@stat-productions", "@stat-festivals", "@stat-awards", "@stat-countries"],
+        "featured_items_title": "Featured Projects",
+        "cta_title": "Have a Story to Tell?",
+        "cta_description": "<p>We're always looking for compelling stories and creative collaborations. Whether you have a script, a concept, or a brand campaign, let's talk about bringing your vision to screen.</p>",
+        "cta_primary": "Submit a Project",
+        "cta_secondary": "View Our Reel"
+      }
+    },
+    {
+      "id": "project-salt-and-stone",
+      "type": "node.project",
+      "path": "/projects/salt-and-stone",
+      "values": {
+        "title": "Salt & Stone",
+        "body": "<p>A sweeping drama set along the Amalfi Coast, <em>Salt & Stone</em> follows three generations of a family whose lives are shaped by the limestone quarries that have sustained their village for centuries. When a foreign development company threatens to buy the quarry, the family must confront what they're willing to sacrifice to preserve their way of life.</p><h2>Production Notes</h2><p>Shot over 42 days on location in Positano and Ravello, Italy. The film employed a predominantly local crew and featured several non-professional actors from the region, lending an authenticity that reviewers have praised.</p><h2>Festival Circuit</h2><ul><li>Official Selection - Venice Film Festival 2025</li><li>Best Cinematography - Toronto International Film Festival</li><li>Audience Award - Telluride Film Festival</li></ul>",
+        "project_type": ["feature-film"],
+        "director": "Carmen Reyes",
+        "release_year": "2025",
+        "runtime": "127 min",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=800&q=80",
+          "alt": "Salt & Stone - Dramatic coastal landscape from the film"
+        },
+        "trailer_url": "https://vimeo.com/example/salt-and-stone"
+      }
+    },
+    {
+      "id": "project-beneath-the-ice",
+      "type": "node.project",
+      "path": "/projects/beneath-the-ice",
+      "values": {
+        "title": "Beneath the Ice",
+        "body": "<p><em>Beneath the Ice</em> is a feature documentary following a team of glaciologists as they race to extract ice cores from rapidly melting glaciers in Greenland. The cores contain atmospheric records spanning 100,000 years -- data that may be lost forever as climate change accelerates.</p><h2>About the Film</h2><p>Our crew spent three months embedded with researchers at Station Nord, one of the most remote inhabited places on Earth. The documentary interweaves the urgency of the scientific mission with intimate portraits of the researchers who have dedicated their lives to understanding our planet's past.</p><h2>Recognition</h2><ul><li>Grand Jury Prize - IDFA Amsterdam</li><li>Best Documentary - Hot Docs</li><li>Nominated for Cinema Eye Honors</li></ul>",
+        "project_type": ["documentary"],
+        "director": "Marcus Lindberg",
+        "release_year": "2025",
+        "runtime": "98 min",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=800&q=80",
+          "alt": "Beneath the Ice - Glacial landscape in Greenland"
+        },
+        "trailer_url": "https://vimeo.com/example/beneath-the-ice"
+      }
+    },
+    {
+      "id": "project-ember",
+      "type": "node.project",
+      "path": "/projects/ember-whiskey",
+      "values": {
+        "title": "Ember Whiskey - Brand Campaign",
+        "body": "<p>A cinematic brand campaign for Ember Whiskey's premium single malt. The 90-second hero spot follows a single drop of water from a highland spring through the entire distillation process, ending in the warm amber glow of the finished spirit.</p><h2>Creative Approach</h2><p>We used macro photography and custom-built lens rigs to capture the whiskey-making process at an intimate scale never before seen. Every frame was designed to convey craftsmanship, patience, and heritage.</p><h2>Results</h2><ul><li>65M views across digital platforms</li><li>Cannes Lions Bronze - Film Craft</li><li>32% increase in premium tier sales</li></ul>",
+        "project_type": ["commercial"],
+        "director": "Carmen Reyes",
+        "release_year": "2024",
+        "runtime": "90 sec",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80",
+          "alt": "Ember Whiskey commercial - amber liquid in cinematic lighting"
+        },
+        "trailer_url": "https://vimeo.com/example/ember-whiskey"
+      }
+    },
+    {
+      "id": "team-carmen",
+      "type": "node.team_member",
+      "path": "/team/carmen-reyes",
+      "values": {
+        "title": "Carmen Reyes",
+        "body": "<p>Carmen is the co-founder and principal director at Iron Gate Films. Her narrative work blends social realism with poetic visual storytelling, drawing comparisons to Terrence Malick and Chlo\u00e9 Zhao. She studied film at NYU Tisch and cut her teeth directing independent shorts before founding Iron Gate in 2015.</p>",
+        "position": "Co-Founder & Director",
+        "notable_credits": ["Salt & Stone (2025)", "The Cartographer (2023)", "Ember Whiskey Campaign"],
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+          "alt": "Carmen Reyes - Director"
+        }
+      }
+    },
+    {
+      "id": "team-marcus",
+      "type": "node.team_member",
+      "path": "/team/marcus-lindberg",
+      "values": {
+        "title": "Marcus Lindberg",
+        "body": "<p>Marcus is Iron Gate's documentary director and co-founder. A former photojournalist who spent years covering conflict and environmental stories for Reuters, his documentary work is characterized by immersive, observational filmmaking that places audiences inside extraordinary situations.</p>",
+        "position": "Co-Founder & Documentary Director",
+        "notable_credits": ["Beneath the Ice (2025)", "The Crossing (2022)", "Last Light (2020)"],
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+          "alt": "Marcus Lindberg - Documentary Director"
+        }
+      }
+    },
+    {
+      "id": "team-yuki",
+      "type": "node.team_member",
+      "path": "/team/yuki-nakamura",
+      "values": {
+        "title": "Yuki Nakamura",
+        "body": "<p>Yuki is Iron Gate's Director of Photography, known for her naturalistic lighting style and fluid camera movement. She trained at the American Film Institute and has shot features, documentaries, and high-profile commercials across four continents.</p>",
+        "position": "Director of Photography",
+        "notable_credits": ["Salt & Stone (2025)", "Nocturne (2024)", "Meridian TV Series (2023)"],
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+          "alt": "Yuki Nakamura - Director of Photography"
+        }
+      }
+    },
+    {
+      "id": "service-production",
+      "type": "node.service",
+      "path": "/services/full-production",
+      "values": {
+        "title": "Full Production Services",
+        "body": "<p>From pre-production planning through principal photography, we handle every aspect of bringing your project to life. Our experienced crew and production infrastructure ensure smooth, efficient shoots whether you're filming across the street or across the globe.</p><h2>Capabilities</h2><ul><li>Script development and storyboarding</li><li>Casting and talent coordination</li><li>Location scouting and permitting</li><li>Crew assembly and management</li><li>Equipment and stage rental</li><li>On-set production management</li></ul>",
+        "service_area": ["production"],
+        "icon_name": "film",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80",
+          "alt": "Film production crew on set with camera equipment"
+        }
+      }
+    },
+    {
+      "id": "service-post",
+      "type": "node.service",
+      "path": "/services/post-production",
+      "values": {
+        "title": "Post-Production",
+        "body": "<p>Our in-house post-production facility handles editorial, color grading, sound design, and finishing. We maintain suites equipped with industry-standard tools and staffed by experienced editors and colorists.</p><h2>Post Services</h2><ul><li>Offline and online editing (Avid, Premiere, DaVinci)</li><li>Color grading and look development</li><li>Sound design and Foley</li><li>5.1 and Dolby Atmos mixing</li><li>Deliverables and format conversion</li></ul>",
+        "service_area": ["post-production", "color-grading", "sound-design"],
+        "icon_name": "scissors",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=80",
+          "alt": "Post-production editing suite with multiple monitors"
+        }
+      }
+    },
+    {
+      "id": "service-vfx",
+      "type": "node.service",
+      "path": "/services/visual-effects",
+      "values": {
+        "title": "Visual Effects",
+        "body": "<p>Our VFX team creates seamless effects that serve the story, from invisible cleanup and compositing to full CG environments. We believe the best visual effects are the ones you never notice.</p><h2>VFX Capabilities</h2><ul><li>Set extensions and environment creation</li><li>CG character and creature animation</li><li>Compositing and cleanup</li><li>Motion graphics and title design</li><li>Previsualization and techvis</li></ul>",
+        "service_area": ["visual-effects"],
+        "icon_name": "sparkles",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=800&q=80",
+          "alt": "Visual effects compositing workstation"
+        }
+      }
+    },
+    {
+      "id": "news-venice",
+      "type": "node.news",
+      "path": "/news/salt-stone-venice-selection",
+      "values": {
+        "title": "Salt & Stone Selected for Venice Film Festival",
+        "body": "<p>We are thrilled to announce that <em>Salt & Stone</em>, directed by Carmen Reyes, has been selected for the official competition at the 82nd Venice International Film Festival.</p><p>The film, which tells the story of an Italian quarrying family facing modernization, will have its world premiere in September. This marks Iron Gate Films' first selection at Venice and a career milestone for director Carmen Reyes.</p><p>\"Venice has always been a beacon for cinema that pushes boundaries while honoring tradition,\" said Reyes. \"To premiere Salt & Stone there feels incredibly fitting given the film's themes.\"</p>",
+        "news_category": ["festival"],
+        "publish_date": "2025-07-15T09:00:00",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&q=80",
+          "alt": "Venice Film Festival red carpet and canal view"
+        }
+      }
+    },
+    {
+      "id": "news-beneath-award",
+      "type": "node.news",
+      "path": "/news/beneath-ice-wins-idfa",
+      "values": {
+        "title": "Beneath the Ice Wins Grand Jury Prize at IDFA",
+        "body": "<p>Marcus Lindberg's climate documentary <em>Beneath the Ice</em> has won the Grand Jury Prize for Best Feature Documentary at the International Documentary Film Festival Amsterdam (IDFA).</p><p>The jury praised the film as \"a breathtaking and urgent work that transforms the abstract threat of climate change into an intensely personal and visual experience.\"</p><p>The documentary will receive a theatrical release in Spring 2026, followed by streaming distribution worldwide.</p>",
+        "news_category": ["award"],
+        "publish_date": "2025-11-22T10:00:00",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=800&q=80",
+          "alt": "Arctic ice landscape from Beneath the Ice"
+        }
+      }
+    },
+    {
+      "id": "news-expansion",
+      "type": "node.news",
+      "path": "/news/iron-gate-expands-post-facility",
+      "values": {
+        "title": "Iron Gate Films Expands Post-Production Facility",
+        "body": "<p>Iron Gate Films is expanding its Brooklyn headquarters with a new 5,000 square foot post-production wing, including two additional color grading suites, a Dolby Atmos mixing stage, and a 30-seat screening room.</p><p>The expansion, expected to be completed by Summer 2026, represents a significant investment in Iron Gate's post-production capabilities and will allow the company to handle more projects simultaneously.</p><p>\"As our slate has grown, so has our need for world-class post-production facilities under one roof,\" said co-founder Marcus Lindberg. \"This expansion means we can offer our clients a complete production pipeline without leaving the building.\"</p>",
+        "news_category": ["announcement"],
+        "publish_date": "2026-01-08T09:00:00",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=80",
+          "alt": "Modern post-production suite with editing equipment"
+        }
+      }
+    },
+    {
+      "id": "page-about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Iron Gate Films",
+        "body": "<p>Iron Gate Films is an independent production company founded in 2015 by filmmakers Carmen Reyes and Marcus Lindberg. Based in Brooklyn, New York, we produce feature films, documentaries, and commercial content that combines cinematic ambition with authentic storytelling.</p><h2>Our Vision</h2><p>We believe in stories that linger. Our work is guided by a commitment to visual excellence, emotional truth, and the conviction that independent cinema can compete on the world stage. Every project at Iron Gate, whether a 90-second commercial or a two-hour feature, receives the same level of creative attention.</p><h2>Facilities</h2><p>Our Brooklyn headquarters includes production offices, a post-production facility with color grading and sound mixing suites, and a screening room. We maintain partnerships with equipment houses and stages in New York, Los Angeles, and London.</p>"
+      }
+    },
+    {
+      "id": "page-contact",
+      "type": "node.page",
+      "path": "/contact",
+      "values": {
+        "title": "Contact",
+        "body": "<h2>Get in Touch</h2><p>We're always interested in hearing about new projects, scripts, and creative partnerships.</p><h2>Office</h2><p>Iron Gate Films<br/>54 Jay Street, Suite 812<br/>Brooklyn, NY 11201</p><h2>General Inquiries</h2><p>info@irongatefilms.com</p><h2>Script Submissions</h2><p>We accept unsolicited scripts through our submissions portal. Please include a logline, synopsis, and the first ten pages.</p>"
+      }
+    }
+  ]
+}

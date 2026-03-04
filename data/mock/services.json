@@ -1,0 +1,146 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-production",
+          "title": "Full Production Services",
+          "path": "/services/full-production",
+          "body": {
+            "processed": "<p>From pre-production planning through principal photography, we handle every aspect of bringing your project to life. Our experienced crew and production infrastructure ensure smooth, efficient shoots whether you're filming across the street or across the globe.</p><h2>Capabilities</h2><ul><li>Script development and storyboarding</li><li>Casting and talent coordination</li><li>Location scouting and permitting</li><li>Crew assembly and management</li><li>Equipment and stage rental</li><li>On-set production management</li></ul>",
+            "summary": "From pre-production planning through principal photography, we handle every aspect of bringing your project to life. Our experienced crew and production infrastructure ensure smooth, efficient shoots "
+          },
+          "serviceArea": [
+            {
+              "id": "production",
+              "name": "production"
+            }
+          ],
+          "iconName": "film",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80",
+            "alt": "Film production crew on set with camera equipment",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-post",
+          "title": "Post-Production",
+          "path": "/services/post-production",
+          "body": {
+            "processed": "<p>Our in-house post-production facility handles editorial, color grading, sound design, and finishing. We maintain suites equipped with industry-standard tools and staffed by experienced editors and colorists.</p><h2>Post Services</h2><ul><li>Offline and online editing (Avid, Premiere, DaVinci)</li><li>Color grading and look development</li><li>Sound design and Foley</li><li>5.1 and Dolby Atmos mixing</li><li>Deliverables and format conversion</li></ul>",
+            "summary": "Our in-house post-production facility handles editorial, color grading, sound design, and finishing. We maintain suites equipped with industry-standard tools and staffed by experienced editors and col"
+          },
+          "serviceArea": [
+            {
+              "id": "post-production",
+              "name": "post-production"
+            },
+            {
+              "id": "color-grading",
+              "name": "color-grading"
+            },
+            {
+              "id": "sound-design",
+              "name": "sound-design"
+            }
+          ],
+          "iconName": "scissors",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=80",
+            "alt": "Post-production editing suite with multiple monitors",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-vfx",
+          "title": "Visual Effects",
+          "path": "/services/visual-effects",
+          "body": {
+            "processed": "<p>Our VFX team creates seamless effects that serve the story, from invisible cleanup and compositing to full CG environments. We believe the best visual effects are the ones you never notice.</p><h2>VFX Capabilities</h2><ul><li>Set extensions and environment creation</li><li>CG character and creature animation</li><li>Compositing and cleanup</li><li>Motion graphics and title design</li><li>Previsualization and techvis</li></ul>",
+            "summary": "Our VFX team creates seamless effects that serve the story, from invisible cleanup and compositing to full CG environments. We believe the best visual effects are the ones you never notice.VFX Capabil"
+          },
+          "serviceArea": [
+            {
+              "id": "visual-effects",
+              "name": "visual-effects"
+            }
+          ],
+          "iconName": "sparkles",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=800&q=80",
+            "alt": "Visual effects compositing workstation",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

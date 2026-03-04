@@ -1,0 +1,147 @@
+{
+  "data": {
+    "nodeProjects": {
+      "__typename": "NodeProjectConnection",
+      "nodes": [
+        {
+          "__typename": "NodeProject",
+          "id": "project-salt-and-stone",
+          "title": "Salt & Stone",
+          "path": "/projects/salt-and-stone",
+          "body": {
+            "processed": "<p>A sweeping drama set along the Amalfi Coast, <em>Salt & Stone</em> follows three generations of a family whose lives are shaped by the limestone quarries that have sustained their village for centuries. When a foreign development company threatens to buy the quarry, the family must confront what they're willing to sacrifice to preserve their way of life.</p><h2>Production Notes</h2><p>Shot over 42 days on location in Positano and Ravello, Italy. The film employed a predominantly local crew and featured several non-professional actors from the region, lending an authenticity that reviewers have praised.</p><h2>Festival Circuit</h2><ul><li>Official Selection - Venice Film Festival 2025</li><li>Best Cinematography - Toronto International Film Festival</li><li>Audience Award - Telluride Film Festival</li></ul>",
+            "summary": "A sweeping drama set along the Amalfi Coast, Salt & Stone follows three generations of a family whose lives are shaped by the limestone quarries that have sustained their village for centuries. When a"
+          },
+          "projectType": [
+            {
+              "id": "feature-film",
+              "name": "feature-film"
+            }
+          ],
+          "director": "Carmen Reyes",
+          "releaseYear": "2025",
+          "runtime": "127 min",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=800&q=80",
+            "alt": "Salt & Stone - Dramatic coastal landscape from the film",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "trailerUrl": "https://vimeo.com/example/salt-and-stone"
+        },
+        {
+          "__typename": "NodeProject",
+          "id": "project-beneath-the-ice",
+          "title": "Beneath the Ice",
+          "path": "/projects/beneath-the-ice",
+          "body": {
+            "processed": "<p><em>Beneath the Ice</em> is a feature documentary following a team of glaciologists as they race to extract ice cores from rapidly melting glaciers in Greenland. The cores contain atmospheric records spanning 100,000 years -- data that may be lost forever as climate change accelerates.</p><h2>About the Film</h2><p>Our crew spent three months embedded with researchers at Station Nord, one of the most remote inhabited places on Earth. The documentary interweaves the urgency of the scientific mission with intimate portraits of the researchers who have dedicated their lives to understanding our planet's past.</p><h2>Recognition</h2><ul><li>Grand Jury Prize - IDFA Amsterdam</li><li>Best Documentary - Hot Docs</li><li>Nominated for Cinema Eye Honors</li></ul>",
+            "summary": "Beneath the Ice is a feature documentary following a team of glaciologists as they race to extract ice cores from rapidly melting glaciers in Greenland. The cores contain atmospheric records spanning "
+          },
+          "projectType": [
+            {
+              "id": "documentary",
+              "name": "documentary"
+            }
+          ],
+          "director": "Marcus Lindberg",
+          "releaseYear": "2025",
+          "runtime": "98 min",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=800&q=80",
+            "alt": "Beneath the Ice - Glacial landscape in Greenland",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "trailerUrl": "https://vimeo.com/example/beneath-the-ice"
+        },
+        {
+          "__typename": "NodeProject",
+          "id": "project-ember",
+          "title": "Ember Whiskey - Brand Campaign",
+          "path": "/projects/ember-whiskey",
+          "body": {
+            "processed": "<p>A cinematic brand campaign for Ember Whiskey's premium single malt. The 90-second hero spot follows a single drop of water from a highland spring through the entire distillation process, ending in the warm amber glow of the finished spirit.</p><h2>Creative Approach</h2><p>We used macro photography and custom-built lens rigs to capture the whiskey-making process at an intimate scale never before seen. Every frame was designed to convey craftsmanship, patience, and heritage.</p><h2>Results</h2><ul><li>65M views across digital platforms</li><li>Cannes Lions Bronze - Film Craft</li><li>32% increase in premium tier sales</li></ul>",
+            "summary": "A cinematic brand campaign for Ember Whiskey's premium single malt. The 90-second hero spot follows a single drop of water from a highland spring through the entire distillation process, ending in the"
+          },
+          "projectType": [
+            {
+              "id": "commercial",
+              "name": "commercial"
+            }
+          ],
+          "director": "Carmen Reyes",
+          "releaseYear": "2024",
+          "runtime": "90 sec",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80",
+            "alt": "Ember Whiskey commercial - amber liquid in cinematic lighting",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "trailerUrl": "https://vimeo.com/example/ember-whiskey"
+        }
+      ]
+    }
+  }
+}

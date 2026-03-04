@@ -1,0 +1,135 @@
+{
+  "data": {
+    "nodeTeamMembers": {
+      "__typename": "NodeTeamMemberConnection",
+      "nodes": [
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-carmen",
+          "title": "Carmen Reyes",
+          "path": "/team/carmen-reyes",
+          "body": {
+            "processed": "<p>Carmen is the co-founder and principal director at Iron Gate Films. Her narrative work blends social realism with poetic visual storytelling, drawing comparisons to Terrence Malick and Chloé Zhao. She studied film at NYU Tisch and cut her teeth directing independent shorts before founding Iron Gate in 2015.</p>",
+            "summary": "Carmen is the co-founder and principal director at Iron Gate Films. Her narrative work blends social realism with poetic visual storytelling, drawing comparisons to Terrence Malick and Chloé Zhao. She"
+          },
+          "position": "Co-Founder & Director",
+          "notableCredits": [
+            "Salt & Stone (2025)",
+            "The Cartographer (2023)",
+            "Ember Whiskey Campaign"
+          ],
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+            "alt": "Carmen Reyes - Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-marcus",
+          "title": "Marcus Lindberg",
+          "path": "/team/marcus-lindberg",
+          "body": {
+            "processed": "<p>Marcus is Iron Gate's documentary director and co-founder. A former photojournalist who spent years covering conflict and environmental stories for Reuters, his documentary work is characterized by immersive, observational filmmaking that places audiences inside extraordinary situations.</p>",
+            "summary": "Marcus is Iron Gate's documentary director and co-founder. A former photojournalist who spent years covering conflict and environmental stories for Reuters, his documentary work is characterized by im"
+          },
+          "position": "Co-Founder & Documentary Director",
+          "notableCredits": [
+            "Beneath the Ice (2025)",
+            "The Crossing (2022)",
+            "Last Light (2020)"
+          ],
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "Marcus Lindberg - Documentary Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-yuki",
+          "title": "Yuki Nakamura",
+          "path": "/team/yuki-nakamura",
+          "body": {
+            "processed": "<p>Yuki is Iron Gate's Director of Photography, known for her naturalistic lighting style and fluid camera movement. She trained at the American Film Institute and has shot features, documentaries, and high-profile commercials across four continents.</p>",
+            "summary": "Yuki is Iron Gate's Director of Photography, known for her naturalistic lighting style and fluid camera movement. She trained at the American Film Institute and has shot features, documentaries, and h"
+          },
+          "position": "Director of Photography",
+          "notableCredits": [
+            "Salt & Stone (2025)",
+            "Nocturne (2024)",
+            "Meridian TV Series (2023)"
+          ],
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+            "alt": "Yuki Nakamura - Director of Photography",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

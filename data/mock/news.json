@@ -1,0 +1,144 @@
+{
+  "data": {
+    "nodeNewses": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-venice",
+          "title": "Salt & Stone Selected for Venice Film Festival",
+          "path": "/news/salt-stone-venice-selection",
+          "body": {
+            "processed": "<p>We are thrilled to announce that <em>Salt & Stone</em>, directed by Carmen Reyes, has been selected for the official competition at the 82nd Venice International Film Festival.</p><p>The film, which tells the story of an Italian quarrying family facing modernization, will have its world premiere in September. This marks Iron Gate Films' first selection at Venice and a career milestone for director Carmen Reyes.</p><p>\"Venice has always been a beacon for cinema that pushes boundaries while honoring tradition,\" said Reyes. \"To premiere Salt & Stone there feels incredibly fitting given the film's themes.\"</p>",
+            "summary": "We are thrilled to announce that Salt & Stone, directed by Carmen Reyes, has been selected for the official competition at the 82nd Venice International Film Festival.The film, which tells the story o"
+          },
+          "newsCategory": [
+            {
+              "id": "festival",
+              "name": "festival"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1752588000
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&q=80",
+            "alt": "Venice Film Festival red carpet and canal view",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-beneath-award",
+          "title": "Beneath the Ice Wins Grand Jury Prize at IDFA",
+          "path": "/news/beneath-ice-wins-idfa",
+          "body": {
+            "processed": "<p>Marcus Lindberg's climate documentary <em>Beneath the Ice</em> has won the Grand Jury Prize for Best Feature Documentary at the International Documentary Film Festival Amsterdam (IDFA).</p><p>The jury praised the film as \"a breathtaking and urgent work that transforms the abstract threat of climate change into an intensely personal and visual experience.\"</p><p>The documentary will receive a theatrical release in Spring 2026, followed by streaming distribution worldwide.</p>",
+            "summary": "Marcus Lindberg's climate documentary Beneath the Ice has won the Grand Jury Prize for Best Feature Documentary at the International Documentary Film Festival Amsterdam (IDFA).The jury praised the fil"
+          },
+          "newsCategory": [
+            {
+              "id": "award",
+              "name": "award"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1763827200
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=800&q=80",
+            "alt": "Arctic ice landscape from Beneath the Ice",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-expansion",
+          "title": "Iron Gate Films Expands Post-Production Facility",
+          "path": "/news/iron-gate-expands-post-facility",
+          "body": {
+            "processed": "<p>Iron Gate Films is expanding its Brooklyn headquarters with a new 5,000 square foot post-production wing, including two additional color grading suites, a Dolby Atmos mixing stage, and a 30-seat screening room.</p><p>The expansion, expected to be completed by Summer 2026, represents a significant investment in Iron Gate's post-production capabilities and will allow the company to handle more projects simultaneously.</p><p>\"As our slate has grown, so has our need for world-class post-production facilities under one roof,\" said co-founder Marcus Lindberg. \"This expansion means we can offer our clients a complete production pipeline without leaving the building.\"</p>",
+            "summary": "Iron Gate Films is expanding its Brooklyn headquarters with a new 5,000 square foot post-production wing, including two additional color grading suites, a Dolby Atmos mixing stage, and a 30-seat scree"
+          },
+          "newsCategory": [
+            {
+              "id": "announcement",
+              "name": "announcement"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1767884400
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=80",
+            "alt": "Modern post-production suite with editing equipment",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
