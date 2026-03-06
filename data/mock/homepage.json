@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-productions",
               "title": "",
-              "number": "120+",
+              "number": "120+", "value": "120+",
               "label": "Productions Completed"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-festivals",
               "title": "",
-              "number": "45",
+              "number": "45", "value": "45",
               "label": "Festival Selections"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-awards",
               "title": "",
-              "number": "18",
+              "number": "18", "value": "18",
               "label": "Awards Won"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-countries",
               "title": "",
-              "number": "30+",
+              "number": "30+", "value": "30+",
               "label": "Countries Filmed In"
             }
           ],
