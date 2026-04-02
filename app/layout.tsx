@@ -1,5 +1,4 @@
 import './globals.css'
-import ApolloProvider from './components/providers/ApolloProvider'
 // DEMO MODE: Remove this import and <DemoModeBanner /> below for production-only builds
 import { DemoModeBanner } from './components/DemoModeBanner'
 import { Viewport, type Metadata } from 'next'
@@ -76,9 +75,9 @@ export default function RootLayout({
     <html lang="en" className={`${bebasNeue.variable} ${inter.variable}`}>
       <body className="font-sans bg-primary-950 text-gray-200 antialiased">
         <DemoModeBanner />
-        <ApolloProvider>
+        
           {children}
-        </ApolloProvider>
+        
       </body>
     </html>
   )
