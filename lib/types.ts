@@ -131,7 +131,7 @@ export interface DrupalNews extends DrupalNode {
 }
 
 export interface NewsData {
-  nodeNewses: {
+  nodeNewsItems: {
     nodes: DrupalNews[]
   }
 }
